@@ -1,0 +1,5 @@
+Flask==0.8
+nose==1.1.2
+pygeocoder==1.1.4
+pyspatialite==3.0.1
+redis==2.4.11
