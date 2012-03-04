@@ -1,5 +1,5 @@
 import urllib2
-from flask import Flask, jsonify, g
+from flask import Flask, jsonify
 from gheocode import GhentGeoCoder
 
 app = Flask(__name__)
@@ -7,12 +7,12 @@ app = Flask(__name__)
 def hello():
     return "gheocoding -- Ghent geocoder"
 
-@app.route("/gheocode/<address_string>")
+@app.route("/<address_string>")
 def return_geocoding(address_string):
     address_string = urllib2.unquote(address_string)
-    g.G = GhentGeoCoder()
+    G = GhentGeoCoder()
 
-    return jsonify(g.G.gheocode(address_string))
+    return jsonify(G.gheocode(address_string))
 
 
 if __name__ == "__main__":
