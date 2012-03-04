@@ -42,3 +42,7 @@ You can query the service with a simple GET-request containing the urlencoded ad
     }
 
 The service is most effectively used in combination with [Google Refine](http://code.google.com/p/google-refine/). Using the function "Add column by fetching URLs" on a column containing addresses in Ghent will pull in all the data in the form of [a JSON structure which you then can futher process](http://code.google.com/p/google-refine/wiki/FetchingURLsFromWebServices).
+
+## Kudos
+
+Uses open data [made available](http://data.gent.be/) by the city of Ghent. Runs on [Flask](http://flask.pocoo.org/), [spatialite](http://www.gaia-gis.it/gaia-sins/) + [bindings](http://code.google.com/p/pyspatialite/), [pygeocoder](https://bitbucket.org/xster/pygeocoder/wiki/Home) and [redis](http://redis.io/) + [bindings](https://github.com/andymccurdy/redis-py).
