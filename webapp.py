@@ -3,11 +3,12 @@ from flask import Flask, jsonify, g
 from gheocode import GhentGeoCoder
 
 app = Flask(__name__)
+
 @app.route("/")
 def hello():
-    return "gheocoding -- Ghent geocoder"
+    return "gheocoding -- geocoding for Ghent"
 
-@app.route("/gheocode/<address_string>")
+@app.route("/<address_string>")
 def return_geocoding(address_string):
     address_string = urllib2.unquote(address_string)
     g.G = GhentGeoCoder()
@@ -16,4 +17,4 @@ def return_geocoding(address_string):
 
 
 if __name__ == "__main__":
-    app.run(debug=True, host='0.0.0.0')
+    app.run(debug=True, host='0.0.0.0', port=19922)
