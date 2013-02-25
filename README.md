@@ -2,7 +2,7 @@
 
 ## Overview
 
-**gheocode** is a very simple wrapper around Google's geocoding service. But in addition to the regular latitude/longitude data and address normalisation, you get a small dash of geoinference. I.e. for each geocoded address in Ghent, you get the name and code of both the block and administrative sector the point is located in. To minimalise the load on Google's servers, responses are cached using a [Redis key-value store](http://redis.io/).
+**gheocode** is a very simple wrapper around Google's geocoding service. But in addition to the regular latitude/longitude data and address normalisation, you get a small dash of geoinference. I.e. for each geocoded address in Ghent, you get the name and code of both the block and administrative sector the point is located in. To minimalise the load on Google's servers (you get a fixed amount of requests per day), responses are cached using a [Redis key-value store](http://redis.io/).
 
 ## Install
 
@@ -10,10 +10,13 @@ An example/testing service is running [here](http://service.mhermans.net/gheocod
 
     $ git clone git://github.com/mhermans/gheocode.git
     $ cd gheocode
+    $ sudo apt-get install redis-server libgeos-c1
     $ pip install -r requirements.txt
-    $ sudo apt-get install libgeos-dev libproj-dev redis-server
-    $ redis-server &
     $ nosetests tests.py
+
+## Running
+    
+    $ redis-server &
     $ python webapp.py
 
 ## Use
@@ -47,4 +50,4 @@ Use a GREL expression such as `'http://service.mhermans.net/gheocode/' + escape(
 
 ## Kudos
 
-Uses open data [made available](http://data.gent.be/) by the city of Ghent. Runs on [Flask](http://flask.pocoo.org/), [spatialite](http://www.gaia-gis.it/gaia-sins/) + [bindings](http://code.google.com/p/pyspatialite/), [pygeocoder](https://bitbucket.org/xster/pygeocoder/wiki/Home) and [redis](http://redis.io/) + [bindings](https://github.com/andymccurdy/redis-py).
+Uses open data [made available](http://data.gent.be/) by the city of Ghent. Runs on [Flask](http://flask.pocoo.org/), [shapely](http://toblerity.github.com/shapely/), [pygeocoder](https://bitbucket.org/xster/pygeocoder/wiki/Home) and [redis](http://redis.io/) + [bindings](https://github.com/andymccurdy/redis-py).
