@@ -3,7 +3,7 @@
   <Document>
     <Placemark>
       <name>0</name>
-      <Description><![CDATA[<id>kml_1</id><fid>0</fid><wijziging>Ja</wijziging><nieuwnr>11</nieuwnr><naam>Noordoost</naam><wijk>Kanaaldorpen en -zone</wijk><wijknr>11</wijknr><objectid>1</objectid><area>0</area><len>0</len>]]></Description>
+      <description><![CDATA[<id>kml_1</id><fid>0</fid><wijziging>Ja</wijziging><nieuwnr>11</nieuwnr><naam>Noordoost</naam><wijk>Kanaaldorpen en -zone</wijk><wijknr>11</wijknr><objectid>1</objectid><area>0</area><len>0</len>]]></description>
       <ExtendedData>
         <Data name="id">
           <value>kml_1</value>
@@ -46,7 +46,7 @@
     </Placemark>
     <Placemark>
       <name>1</name>
-      <Description><![CDATA[<id>kml_2</id><fid>1</fid><wijziging>Ja</wijziging><nieuwnr>12</nieuwnr><naam>Noordoost</naam><wijk>Oostakker</wijk><wijknr>12</wijknr><objectid>2</objectid><area>0</area><len>0</len>]]></Description>
+      <description><![CDATA[<id>kml_2</id><fid>1</fid><wijziging>Ja</wijziging><nieuwnr>12</nieuwnr><naam>Noordoost</naam><wijk>Oostakker</wijk><wijknr>12</wijknr><objectid>2</objectid><area>0</area><len>0</len>]]></description>
       <ExtendedData>
         <Data name="id">
           <value>kml_2</value>
@@ -89,7 +89,7 @@
     </Placemark>
     <Placemark>
       <name>2</name>
-      <Description><![CDATA[<id>kml_3</id><fid>2</fid><wijziging>Ja</wijziging><nieuwnr>14</nieuwnr><naam>Noordoost</naam><wijk>Sint Amandsberg</wijk><wijknr>14</wijknr><objectid>3</objectid><area>0</area><len>0</len>]]></Description>
+      <description><![CDATA[<id>kml_3</id><fid>2</fid><wijziging>Ja</wijziging><nieuwnr>14</nieuwnr><naam>Noordoost</naam><wijk>Sint Amandsberg</wijk><wijknr>14</wijknr><objectid>3</objectid><area>0</area><len>0</len>]]></description>
       <ExtendedData>
         <Data name="id">
           <value>kml_3</value>
@@ -132,7 +132,7 @@
     </Placemark>
     <Placemark>
       <name>3</name>
-      <Description><![CDATA[<id>kml_4</id><fid>3</fid><wijziging>Ja</wijziging><nieuwnr>13</nieuwnr><naam>Noordoost</naam><wijk>Dampoort</wijk><wijknr>13</wijknr><objectid>4</objectid><area>0</area><len>0</len>]]></Description>
+      <description><![CDATA[<id>kml_4</id><fid>3</fid><wijziging>Ja</wijziging><nieuwnr>13</nieuwnr><naam>Noordoost</naam><wijk>Dampoort</wijk><wijknr>13</wijknr><objectid>4</objectid><area>0</area><len>0</len>]]></description>
       <ExtendedData>
         <Data name="id">
           <value>kml_4</value>
@@ -175,7 +175,7 @@
     </Placemark>
     <Placemark>
       <name>4</name>
-      <Description><![CDATA[<id>kml_5</id><fid>4</fid><wijziging>Nee</wijziging><nieuwnr>8</nieuwnr><naam>Noordwest</naam><wijk>Wondelgem</wijk><wijknr>8</wijknr><objectid>5</objectid><area>0</area><len>0</len>]]></Description>
+      <description><![CDATA[<id>kml_5</id><fid>4</fid><wijziging>Nee</wijziging><nieuwnr>8</nieuwnr><naam>Noordwest</naam><wijk>Wondelgem</wijk><wijknr>8</wijknr><objectid>5</objectid><area>0</area><len>0</len>]]></description>
       <ExtendedData>
         <Data name="id">
           <value>kml_5</value>
@@ -218,7 +218,7 @@
     </Placemark>
     <Placemark>
       <name>5</name>
-      <Description><![CDATA[<id>kml_6</id><fid>5</fid><wijziging>Nee</wijziging><nieuwnr>9</nieuwnr><naam>Noordwest</naam><wijk>Bloemekenswijk</wijk><wijknr>9</wijknr><objectid>6</objectid><area>0</area><len>0</len>]]></Description>
+      <description><![CDATA[<id>kml_6</id><fid>5</fid><wijziging>Nee</wijziging><nieuwnr>9</nieuwnr><naam>Noordwest</naam><wijk>Bloemekenswijk</wijk><wijknr>9</wijknr><objectid>6</objectid><area>0</area><len>0</len>]]></description>
       <ExtendedData>
         <Data name="id">
           <value>kml_6</value>
@@ -261,7 +261,7 @@
     </Placemark>
     <Placemark>
       <name>6</name>
-      <Description><![CDATA[<id>kml_7</id><fid>6</fid><wijziging>Ja</wijziging><nieuwnr>4</nieuwnr><naam>Kernstad</naam><wijk>Brugse Poort - Rooigem</wijk><wijknr>4</wijknr><objectid>7</objectid><area>0</area><len>0</len>]]></Description>
+      <description><![CDATA[<id>kml_7</id><fid>6</fid><wijziging>Ja</wijziging><nieuwnr>4</nieuwnr><naam>Kernstad</naam><wijk>Brugse Poort - Rooigem</wijk><wijknr>4</wijknr><objectid>7</objectid><area>0</area><len>0</len>]]></description>
       <ExtendedData>
         <Data name="id">
           <value>kml_7</value>
@@ -304,7 +304,7 @@
     </Placemark>
     <Placemark>
       <name>7</name>
-      <Description><![CDATA[<id>kml_8</id><fid>7</fid><wijziging>Nee</wijziging><nieuwnr>7</nieuwnr><naam>Kernstad</naam><wijk>Rabot  - Blaisantvest</wijk><wijknr>7</wijknr><objectid>8</objectid><area>0</area><len>0</len>]]></Description>
+      <description><![CDATA[<id>kml_8</id><fid>7</fid><wijziging>Nee</wijziging><nieuwnr>7</nieuwnr><naam>Kernstad</naam><wijk>Rabot  - Blaisantvest</wijk><wijknr>7</wijknr><objectid>8</objectid><area>0</area><len>0</len>]]></description>
       <ExtendedData>
         <Data name="id">
           <value>kml_8</value>
@@ -347,7 +347,7 @@
     </Placemark>
     <Placemark>
       <name>8</name>
-      <Description><![CDATA[<id>kml_9</id><fid>8</fid><wijziging>Ja</wijziging><nieuwnr>24</nieuwnr><naam>West</naam><wijk>Mariakerke</wijk><wijknr>24</wijknr><objectid>9</objectid><area>0</area><len>0</len>]]></Description>
+      <description><![CDATA[<id>kml_9</id><fid>8</fid><wijziging>Ja</wijziging><nieuwnr>24</nieuwnr><naam>West</naam><wijk>Mariakerke</wijk><wijknr>24</wijknr><objectid>9</objectid><area>0</area><len>0</len>]]></description>
       <ExtendedData>
         <Data name="id">
           <value>kml_9</value>
@@ -390,7 +390,7 @@
     </Placemark>
     <Placemark>
       <name>9</name>
-      <Description><![CDATA[<id>kml_10</id><fid>9</fid><wijziging>Nee</wijziging><nieuwnr>6</nieuwnr><naam>Kernstad</naam><wijk>Elisabethbegijnhof - Papegaai</wijk><wijknr>6</wijknr><objectid>10</objectid><area>0</area><len>0</len>]]></Description>
+      <description><![CDATA[<id>kml_10</id><fid>9</fid><wijziging>Nee</wijziging><nieuwnr>6</nieuwnr><naam>Kernstad</naam><wijk>Elisabethbegijnhof - Papegaai</wijk><wijknr>6</wijknr><objectid>10</objectid><area>0</area><len>0</len>]]></description>
       <ExtendedData>
         <Data name="id">
           <value>kml_10</value>
@@ -433,7 +433,7 @@
     </Placemark>
     <Placemark>
       <name>10</name>
-      <Description><![CDATA[<id>kml_11</id><fid>10</fid><wijziging>Nee</wijziging><nieuwnr>3</nieuwnr><naam>Kernstad</naam><wijk>Macharius - Heirnis</wijk><wijknr>3</wijknr><objectid>11</objectid><area>0</area><len>0</len>]]></Description>
+      <description><![CDATA[<id>kml_11</id><fid>10</fid><wijziging>Nee</wijziging><nieuwnr>3</nieuwnr><naam>Kernstad</naam><wijk>Macharius - Heirnis</wijk><wijknr>3</wijknr><objectid>11</objectid><area>0</area><len>0</len>]]></description>
       <ExtendedData>
         <Data name="id">
           <value>kml_11</value>
@@ -476,7 +476,7 @@
     </Placemark>
     <Placemark>
       <name>11</name>
-      <Description><![CDATA[<id>kml_12</id><fid>11</fid><wijziging>Nee</wijziging><nieuwnr>16</nieuwnr><naam>Oost</naam><wijk>Gentbrugge</wijk><wijknr>16</wijknr><objectid>12</objectid><area>0</area><len>0</len>]]></Description>
+      <description><![CDATA[<id>kml_12</id><fid>11</fid><wijziging>Nee</wijziging><nieuwnr>16</nieuwnr><naam>Oost</naam><wijk>Gentbrugge</wijk><wijknr>16</wijknr><objectid>12</objectid><area>0</area><len>0</len>]]></description>
       <ExtendedData>
         <Data name="id">
           <value>kml_12</value>
@@ -519,7 +519,7 @@
     </Placemark>
     <Placemark>
       <name>12</name>
-      <Description><![CDATA[<id>kml_13</id><fid>12</fid><wijziging>Nee</wijziging><nieuwnr>15</nieuwnr><naam>Oost</naam><wijk>Moscou - Vogelhoek</wijk><wijknr>15</wijknr><objectid>13</objectid><area>0</area><len>0</len>]]></Description>
+      <description><![CDATA[<id>kml_13</id><fid>12</fid><wijziging>Nee</wijziging><nieuwnr>15</nieuwnr><naam>Oost</naam><wijk>Moscou - Vogelhoek</wijk><wijknr>15</wijknr><objectid>13</objectid><area>0</area><len>0</len>]]></description>
       <ExtendedData>
         <Data name="id">
           <value>kml_13</value>
@@ -562,7 +562,7 @@
     </Placemark>
     <Placemark>
       <name>13</name>
-      <Description><![CDATA[<id>kml_14</id><fid>13</fid><wijziging>Ja</wijziging><nieuwnr>20</nieuwnr><naam>Zuid</naam><wijk>Nieuw Gent - UZ</wijk><wijknr>20</wijknr><objectid>14</objectid><area>0</area><len>0</len>]]></Description>
+      <description><![CDATA[<id>kml_14</id><fid>13</fid><wijziging>Ja</wijziging><nieuwnr>20</nieuwnr><naam>Zuid</naam><wijk>Nieuw Gent - UZ</wijk><wijknr>20</wijknr><objectid>14</objectid><area>0</area><len>0</len>]]></description>
       <ExtendedData>
         <Data name="id">
           <value>kml_14</value>
@@ -605,7 +605,7 @@
     </Placemark>
     <Placemark>
       <name>14</name>
-      <Description><![CDATA[<id>kml_15</id><fid>14</fid><wijziging>Nee</wijziging><nieuwnr>19</nieuwnr><naam>Zuid</naam><wijk>Zwijnaarde</wijk><wijknr>19</wijknr><objectid>15</objectid><area>0</area><len>0</len>]]></Description>
+      <description><![CDATA[<id>kml_15</id><fid>14</fid><wijziging>Nee</wijziging><nieuwnr>19</nieuwnr><naam>Zuid</naam><wijk>Zwijnaarde</wijk><wijknr>19</wijknr><objectid>15</objectid><area>0</area><len>0</len>]]></description>
       <ExtendedData>
         <Data name="id">
           <value>kml_15</value>
@@ -648,7 +648,7 @@
     </Placemark>
     <Placemark>
       <name>15</name>
-      <Description><![CDATA[<id>kml_16</id><fid>15</fid><wijziging>Nee</wijziging><nieuwnr>23</nieuwnr><naam>Zuid</naam><wijk>Sint Denijs Westrem</wijk><wijknr>23</wijknr><objectid>16</objectid><area>0</area><len>0</len>]]></Description>
+      <description><![CDATA[<id>kml_16</id><fid>15</fid><wijziging>Nee</wijziging><nieuwnr>23</nieuwnr><naam>Zuid</naam><wijk>Sint Denijs Westrem</wijk><wijknr>23</wijknr><objectid>16</objectid><area>0</area><len>0</len>]]></description>
       <ExtendedData>
         <Data name="id">
           <value>kml_16</value>
@@ -691,7 +691,7 @@
     </Placemark>
     <Placemark>
       <name>16</name>
-      <Description><![CDATA[<id>kml_17</id><fid>16</fid><wijziging>Ja</wijziging><nieuwnr>21</nieuwnr><naam>Zuid</naam><wijk>Stationsbuurt Zuid</wijk><wijknr>21</wijknr><objectid>17</objectid><area>0</area><len>0</len>]]></Description>
+      <description><![CDATA[<id>kml_17</id><fid>16</fid><wijziging>Ja</wijziging><nieuwnr>21</nieuwnr><naam>Zuid</naam><wijk>Stationsbuurt Zuid</wijk><wijknr>21</wijknr><objectid>17</objectid><area>0</area><len>0</len>]]></description>
       <ExtendedData>
         <Data name="id">
           <value>kml_17</value>
@@ -734,7 +734,7 @@
     </Placemark>
     <Placemark>
       <name>17</name>
-      <Description><![CDATA[<id>kml_18</id><fid>17</fid><wijziging>Nee</wijziging><nieuwnr>25</nieuwnr><naam>West</naam><wijk>Drongen</wijk><wijknr>25</wijknr><objectid>18</objectid><area>0</area><len>0</len>]]></Description>
+      <description><![CDATA[<id>kml_18</id><fid>17</fid><wijziging>Nee</wijziging><nieuwnr>25</nieuwnr><naam>West</naam><wijk>Drongen</wijk><wijknr>25</wijknr><objectid>18</objectid><area>0</area><len>0</len>]]></description>
       <ExtendedData>
         <Data name="id">
           <value>kml_18</value>
@@ -777,7 +777,7 @@
     </Placemark>
     <Placemark>
       <name>18</name>
-      <Description><![CDATA[<id>kml_19</id><fid>18</fid><wijziging>Ja</wijziging><nieuwnr>10</nieuwnr><naam>Noordwest</naam><wijk>Muide - Meulestede - Afrikalaan</wijk><wijknr>10</wijknr><objectid>19</objectid><area>0</area><len>0</len>]]></Description>
+      <description><![CDATA[<id>kml_19</id><fid>18</fid><wijziging>Ja</wijziging><nieuwnr>10</nieuwnr><naam>Noordwest</naam><wijk>Muide - Meulestede - Afrikalaan</wijk><wijknr>10</wijknr><objectid>19</objectid><area>0</area><len>0</len>]]></description>
       <ExtendedData>
         <Data name="id">
           <value>kml_19</value>
@@ -820,7 +820,7 @@
     </Placemark>
     <Placemark>
       <name>19</name>
-      <Description><![CDATA[<id>kml_20</id><fid>19</fid><wijziging> </wijziging><nieuwnr>2</nieuwnr><naam>Kernstad</naam><wijk>Sluizeken - Tolhuis - Ham</wijk><wijknr>2</wijknr><objectid>20</objectid><area>0</area><len>0</len>]]></Description>
+      <description><![CDATA[<id>kml_20</id><fid>19</fid><wijziging> </wijziging><nieuwnr>2</nieuwnr><naam>Kernstad</naam><wijk>Sluizeken - Tolhuis - Ham</wijk><wijknr>2</wijknr><objectid>20</objectid><area>0</area><len>0</len>]]></description>
       <ExtendedData>
         <Data name="id">
           <value>kml_20</value>
@@ -863,7 +863,7 @@
     </Placemark>
     <Placemark>
       <name>20</name>
-      <Description><![CDATA[<id>kml_21</id><fid>20</fid><wijziging>Ja</wijziging><nieuwnr>1</nieuwnr><naam>Binnenstad</naam><wijk>Binnenstad</wijk><wijknr>1</wijknr><objectid>21</objectid><area>0</area><len>0</len>]]></Description>
+      <description><![CDATA[<id>kml_21</id><fid>20</fid><wijziging>Ja</wijziging><nieuwnr>1</nieuwnr><naam>Binnenstad</naam><wijk>Binnenstad</wijk><wijknr>1</wijknr><objectid>21</objectid><area>0</area><len>0</len>]]></description>
       <ExtendedData>
         <Data name="id">
           <value>kml_21</value>
@@ -906,7 +906,7 @@
     </Placemark>
     <Placemark>
       <name>21</name>
-      <Description><![CDATA[<id>kml_22</id><fid>21</fid><wijziging>Nee</wijziging><nieuwnr>17</nieuwnr><naam>Oost</naam><wijk>Oud Gentbrugge</wijk><wijknr>17</wijknr><objectid>22</objectid><area>0</area><len>0</len>]]></Description>
+      <description><![CDATA[<id>kml_22</id><fid>21</fid><wijziging>Nee</wijziging><nieuwnr>17</nieuwnr><naam>Oost</naam><wijk>Oud Gentbrugge</wijk><wijknr>17</wijknr><objectid>22</objectid><area>0</area><len>0</len>]]></description>
       <ExtendedData>
         <Data name="id">
           <value>kml_22</value>
@@ -949,7 +949,7 @@
     </Placemark>
     <Placemark>
       <name>22</name>
-      <Description><![CDATA[<id>kml_23</id><fid>22</fid><wijziging>Nee</wijziging><nieuwnr>18</nieuwnr><naam>Oost</naam><wijk>Ledeberg</wijk><wijknr>18</wijknr><objectid>23</objectid><area>0</area><len>0</len>]]></Description>
+      <description><![CDATA[<id>kml_23</id><fid>22</fid><wijziging>Nee</wijziging><nieuwnr>18</nieuwnr><naam>Oost</naam><wijk>Ledeberg</wijk><wijknr>18</wijknr><objectid>23</objectid><area>0</area><len>0</len>]]></description>
       <ExtendedData>
         <Data name="id">
           <value>kml_23</value>
@@ -992,7 +992,7 @@
     </Placemark>
     <Placemark>
       <name>23</name>
-      <Description><![CDATA[<id>kml_24</id><fid>23</fid><wijziging>Nee</wijziging><nieuwnr>22</nieuwnr><naam>Zuid</naam><wijk>Stationsbuurt Noord</wijk><wijknr>22</wijknr><objectid>24</objectid><area>0</area><len>0</len>]]></Description>
+      <description><![CDATA[<id>kml_24</id><fid>23</fid><wijziging>Nee</wijziging><nieuwnr>22</nieuwnr><naam>Zuid</naam><wijk>Stationsbuurt Noord</wijk><wijknr>22</wijknr><objectid>24</objectid><area>0</area><len>0</len>]]></description>
       <ExtendedData>
         <Data name="id">
           <value>kml_24</value>
@@ -1035,7 +1035,7 @@
     </Placemark>
     <Placemark>
       <name>24</name>
-      <Description><![CDATA[<id>kml_25</id><fid>24</fid><wijziging>Ja</wijziging><nieuwnr>5</nieuwnr><naam>Kernstad</naam><wijk>Watersportbaan - Ekkergem</wijk><wijknr>5</wijknr><objectid>25</objectid><area>0</area><len>0</len>]]></Description>
+      <description><![CDATA[<id>kml_25</id><fid>24</fid><wijziging>Ja</wijziging><nieuwnr>5</nieuwnr><naam>Kernstad</naam><wijk>Watersportbaan - Ekkergem</wijk><wijknr>5</wijknr><objectid>25</objectid><area>0</area><len>0</len>]]></description>
       <ExtendedData>
         <Data name="id">
           <value>kml_25</value>
