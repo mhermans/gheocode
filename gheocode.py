@@ -1,6 +1,7 @@
 import json, sys, redis
 from pygeocoder import Geocoder, GeocoderError
-from pyspatialite import dbapi2 as db
+#from pyspatialite import dbapi2 as db
+from shapely.geometry import Point, shape
 
 class GeocodeCache(object):
     """Wrapper for Google geocoding, cached by Redis."""
@@ -52,29 +53,43 @@ class GeocodeCache(object):
 
 class GhentGeoCoder(GeocodeCache):
 
-    def __init__(self, sqlitedb='gent.sqlite'):
+    def __init__(self, fn_wijken, fn_sectoren):
         GeocodeCache.__init__(self)
-        self.sqlitedb_name = sqlitedb
+        #self.sqlitedb_name = sqlitedb
+
+        # load geojson for wijken, sectoren + insert shapely geometries
+        with open(fn_wijken, 'r') as f:
+            self.wijken = json.load(f)['features']
+        for wijk in self.wijken:
+            wijk['polygon'] = shape(wijk['geometry'])
+
+        with open(fn_sectoren, 'r') as f:
+            self.sectoren = json.load(f)['features']
+        for sector in self.sectoren:
+            sector['polygon'] = shape(sector['geometry'])
+
+    def get_wijk(self, point):
+        for wijk in self.wijken:
+            if wijk['polygon'].intersects(point):
+                return wijk
+
+    def get_sector(self, point):
+        for sector in self.sectoren:
+            if sector['polygon'].intersects(point):
+                return sector
 
     def coord2areas(self, latitude, longitude):
-        coords = (longitude, latitude)
-        block_sql = "SELECT block_name, block_code FROM blocks WHERE ST_Contains(Geometry, MakePoint(%s,%s))" % coords
-        sector_sql = "SELECT sector_name, sector_code FROM sectors WHERE ST_Contains(Geometry, MakePoint(%s,%s))" % coords
+        point = Point(float(longitude), float(latitude))
+        wijk = self.get_wijk(point)
+        sector = self.get_sector(point)
 
+        if not wijk and sector: 
+            return {}
 
-        conn = db.connect(self.sqlitedb_name)
-        cur = conn.cursor()
-
-        blockname, blockcode =  cur.execute(block_sql).fetchone()
-        sectorname, sectorcode = cur.execute(sector_sql).fetchone()
-
-        cur.close()
-        conn.close()
-
-        data = {'sector_name' : sectorname,
-                'sector_code' : sectorcode,
-                'block_name': blockname,
-                'block_code' : blockcode }
+        data = {'sector_name' : sector['properties']['sectornaam'],
+                'sector_code' : sector['properties']['sectorcode'],
+                'block_name': wijk['properties']['wijk'],
+                'block_code' : wijk['properties']['wijknr'] }
 
         return data
 
@@ -97,11 +112,13 @@ class GhentGeoCoder(GeocodeCache):
             resp['geoinference_status'] = 'OK'
 
         except TypeError:
-            resp['geoinference_status'] = 'not within ghent'
+            resp['geoinference_status'] = 'not within Ghent'
 
         return resp
 
 if __name__ == '__main__':
-    G = GhentGeoCoder()
+    fn_wijken = 'geometries/geojson/wijken_extended.json'
+    fn_sectoren = 'geometries/geojson/sectoren_extended.json'
+    G = GhentGeoCoder(fn_wijken, fn_sectoren)
     addressstring = sys.argv[1]
     print G.gheocode(addressstring)

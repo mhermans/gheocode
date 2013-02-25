@@ -6,12 +6,14 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "gheocoding -- geocoding for Ghent"
+    return "gheocode -- geocoding for Ghent"
 
 @app.route("/<address_string>")
 def return_geocoding(address_string):
     address_string = urllib2.unquote(address_string)
-    G = GhentGeoCoder()
+    fn_wijken = 'geometries/geojson/wijken_extended.json'
+    fn_sectoren = 'geometries/geojson/sectoren_extended.json'
+    G = GhentGeoCoder(fn_wijken, fn_sectoren)
 
     return jsonify(G.gheocode(address_string))
 
