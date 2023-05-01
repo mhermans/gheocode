@@ -1,4 +1,4 @@
-Flask==1.0
+Flask==2.3.2
 Shapely==1.2.17
 nose==1.1.2
 pygeocoder==1.1.4
